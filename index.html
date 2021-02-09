@@ -28,28 +28,87 @@
 
     <!-- Main wrapper -->
     <div class="main-wrapper">
-        
-        <!-- Buttons section -->
-        <section class="button-section">
-            <button class="task-button b-padding">Add Task</button>
-            <button class="section-button b-padding">Add Section</button>
-        </section>
-
-        <!-- To boo things -->
-        <div class="todo-container">
-
-            <!-- New Task sect. -->
-            <section>
-                <h2 class="task-info">&#9662; New Task</h2>
-                <ul>
-                    <li class="task-item">
-                        <span class="check">&check;</span>
-                        <span class="task-text">Quarterly Newsletter</span>
-                        <label class="label" for="editorial">Editorial</label>
-                    </li>
-                </ul>
+        <main>
+            <!-- Buttons section -->
+            <section class="button-section">
+                <button class="task-button button-padding">Add Task</button>
+                <button class="section-button button-padding">Add Section</button>
             </section>
-        </div>
+
+            <!-- To boo things -->
+            <div class="todo-container">
+
+                <!-- New Task sect. -->
+                <section>
+                    <h2 class="task-info">&#9662; New Task</h2>
+                    <ul>
+                        <li class="task-item">
+                            <span class="entities check">&check;</span>
+                            <span class="task-text">Quarterly Newsletter</span>
+                            <label class="label edit" for="editorial">Editorial</label>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- Today sect. -->
+                <section>
+                    <h2 class="task-info">&#9662; Today </h2>
+                    <ul>
+                        <li class="task-item">
+                            <span class="entities check">&check;</span>
+                            <span class="task-text">Recruiting blog post</span>
+                            <label class="label edit" for="editorial">Editorial</label>
+                        </li>
+                        <li class="task-item">
+                            <span class="entities check">&check;</span>
+                            <span class="task-text">Mobile app launch</span>
+                            <label class="label goals" for="goals">Q1 Goals</label>
+                        </li>
+                        <li class="task-item">
+                            <span class="entities remove">&#9587;</span>
+                            <span class="task-text">Recruiting blog post</span>
+                            <label class="label recruting" for="recruting">Recruting</label>
+                        </li>
+                        <li class="task-item">
+                            <span class="entities check">&check;</span>
+                            <span class="task-text">Summit update to mobile storefronts</span>
+                            <label class="label mobile" for="mobile">Mobile</label>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- Upcoming sect. -->
+                <section>
+                    <h2 class="task-info">&#9662; Upcoming</h2>
+                    <ul>
+                        <li class="task-item">
+                            <span class="entities remove">&#9587;</span>
+                            <span class="task-text">Schedule meeting with Alex</span>
+                        </li>
+                        <li class="task-item">
+                            <span class="entities check">&check;</span>
+                            <span class="task-text">Homepage Refresh</span>
+                            <label class="label website" for="website">Website</label>
+                        </li>
+                        <li class="task-item">
+                            <span class="entities check">&check;</span>
+                            <span class="task-text">Onboard new Sales team members</span>
+                            <label class="label goals" for="goals">Q1 Goals</label>
+                        </li>
+                        <li class="task-item">
+                            <span class="entities check">&check;</span>
+                            <span class="task-text">Summit update to mobile storefronts</span>
+                            <label class="label sales" for="sales">Sales</label>
+                        </li>
+                        <li class="task-item">
+                            <span class="entities check">&check;</span>
+                            <span class="task-text">Review editorial calendar</span>
+                            <label class="label edit" for="editorial">Editorial</label>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </main>
     </div>
 </body>
 </html>
