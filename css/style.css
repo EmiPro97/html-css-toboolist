@@ -1,0 +1,28 @@
+/* General properties */
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    background-color: lightgray;
+}
+
+/* Header */
+.title-logo-wrapper{
+    background-color: white;
+    padding: 10px 20px;
+}
+
+.logo{
+    width: 60px;
+    vertical-align: middle;
+}
+
+.title{
+    display: inline-block;
+    font-size: 45px;
+    vertical-align: middle;
+}
