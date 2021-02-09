@@ -4,10 +4,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
+    font-size: 16px;
 }
 
 body{
-    background-color: lightgray;
+    background-color: #f6f8f9;
 }
 
 /* Header */
@@ -25,4 +26,78 @@ body{
     display: inline-block;
     font-size: 45px;
     vertical-align: middle;
+}
+
+/* Main wrapper */
+.main-wrapper{
+    background-color: white;
+    max-width: 1080px;
+    height: 600px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+/* Buttons section */
+.button-section{
+    border-bottom: 3px solid #f6f8f9;
+    padding: 15px 0 15px 50px;
+}
+
+.b-padding{
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+}
+
+.task-button{
+    background-color: #14aaf5;
+    color: white;
+}
+
+.section-button{
+    color: #c4cbd0;
+    border: 1px solid #c4cbd0;
+    background-color: white;
+    margin-left: 5px;
+}
+
+/* To boo things */
+.todo-container{
+    padding-left: 50px;
+}
+
+/* New Task sect. */
+.task-info{
+    font-size: 20px;
+}
+
+.task-item{
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.check{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    color:#56ff56;
+    border: 1px solid;
+    border-radius: 50%;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: bold;
+}
+
+.task-text{
+    margin-left: 5px;
+}
+
+.label{
+color: white;
+background-color: #14aaf5;
+border: none;
+border-radius: 20px;
+padding: 5px 10px;
+font-size: 12px;
+margin-left: 5px;
 }
