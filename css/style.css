@@ -36,7 +36,7 @@ body{
     max-width: 1080px;
     margin: auto;
     margin-top: 50px;
-    padding-bottom: 30px;
+    padding-bottom: 5px;
 }
 
 
@@ -73,6 +73,7 @@ body{
 
 /* New Task sect. */
 .task-info{
+    display: inline-block;
     font-size: 20px;
     margin-top: 30px;
     margin-bottom: 10px;
@@ -144,4 +145,13 @@ body{
 
 .label.sales{
     background-color: #a3d116;
+}
+
+
+/* Footer */
+.credits{
+    font-size: 13px;
+    font-style: italic;
+    text-align: center;
+    margin-top: 30px;
 }
